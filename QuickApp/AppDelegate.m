@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <BuddyBuildSDK/BuddyBuildSDK.h>
+#import "QuickApp-Swift.h"
 
 @interface AppDelegate ()
 
@@ -18,6 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
     [BuddyBuildSDK setup];
     return YES;
 }

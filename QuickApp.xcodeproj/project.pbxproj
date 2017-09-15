@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		566DAC4ED50EED0AEB89F307 /* Pods_QuickApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA43D641263DD7F1FA7F382 /* Pods_QuickApp.framework */; };
 		8B07A0681F588B0F00B3EA19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B07A0671F588B0F00B3EA19 /* main.m */; };
 		8B07A06B1F588B0F00B3EA19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B07A06A1F588B0F00B3EA19 /* AppDelegate.m */; };
 		8B07A06E1F588B0F00B3EA19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B07A06D1F588B0F00B3EA19 /* ViewController.m */; };
 		8B07A0711F588B0F00B3EA19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B07A06F1F588B0F00B3EA19 /* Main.storyboard */; };
 		8B07A0731F588B0F00B3EA19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B07A0721F588B0F00B3EA19 /* Assets.xcassets */; };
 		8B07A0761F588B0F00B3EA19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B07A0741F588B0F00B3EA19 /* LaunchScreen.storyboard */; };
+		8B30EC581F6C9E37001E6746 /* SwiftyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B30EC571F6C9E37001E6746 /* SwiftyViewController.swift */; };
 		8BE99F541F69E79700E8C4F2 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE99F501F69E79700E8C4F2 /* AssetsLibrary.framework */; };
 		8BE99F551F69E79700E8C4F2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE99F511F69E79700E8C4F2 /* CoreMedia.framework */; };
 		8BE99F561F69E79700E8C4F2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE99F521F69E79700E8C4F2 /* CoreTelephony.framework */; };
@@ -25,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		246C09B7BEE6E19926CD97FF /* Pods-QuickApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickApp/Pods-QuickApp.debug.xcconfig"; sourceTree = "<group>"; };
 		8B07A0631F588B0F00B3EA19 /* QuickApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B07A0671F588B0F00B3EA19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B07A0691F588B0F00B3EA19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,6 +38,8 @@
 		8B07A0721F588B0F00B3EA19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B07A0751F588B0F00B3EA19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B07A0771F588B0F00B3EA19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B30EC561F6C9E37001E6746 /* QuickApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuickApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		8B30EC571F6C9E37001E6746 /* SwiftyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyViewController.swift; sourceTree = "<group>"; };
 		8BE99F501F69E79700E8C4F2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		8BE99F511F69E79700E8C4F2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		8BE99F521F69E79700E8C4F2 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
@@ -44,6 +49,8 @@
 		8BE99F5C1F69E7AA00E8C4F2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8BE99F5E1F69E7B100E8C4F2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		8BE99F601F69E7BD00E8C4F2 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuddyBuildSDK.framework; path = QuickApp/BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		AB96219C557BD178413CA6B3 /* Pods-QuickApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickApp/Pods-QuickApp.release.xcconfig"; sourceTree = "<group>"; };
+		DDA43D641263DD7F1FA7F382 /* Pods_QuickApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,7 @@
 				8BE99F551F69E79700E8C4F2 /* CoreMedia.framework in Frameworks */,
 				8BE99F561F69E79700E8C4F2 /* CoreTelephony.framework in Frameworks */,
 				8BE99F571F69E79700E8C4F2 /* CoreText.framework in Frameworks */,
+				566DAC4ED50EED0AEB89F307 /* Pods_QuickApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +80,7 @@
 				8B07A0651F588B0F00B3EA19 /* QuickApp */,
 				8B07A0641F588B0F00B3EA19 /* Products */,
 				8BE99F4F1F69E79700E8C4F2 /* Frameworks */,
+				AC52A9F14D27587B28F27CA0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,11 +99,13 @@
 				8B07A06A1F588B0F00B3EA19 /* AppDelegate.m */,
 				8B07A06C1F588B0F00B3EA19 /* ViewController.h */,
 				8B07A06D1F588B0F00B3EA19 /* ViewController.m */,
+				8B30EC571F6C9E37001E6746 /* SwiftyViewController.swift */,
 				8B07A06F1F588B0F00B3EA19 /* Main.storyboard */,
 				8B07A0721F588B0F00B3EA19 /* Assets.xcassets */,
 				8B07A0741F588B0F00B3EA19 /* LaunchScreen.storyboard */,
 				8B07A0771F588B0F00B3EA19 /* Info.plist */,
 				8B07A0661F588B0F00B3EA19 /* Supporting Files */,
+				8B30EC561F6C9E37001E6746 /* QuickApp-Bridging-Header.h */,
 			);
 			path = QuickApp;
 			sourceTree = "<group>";
@@ -119,8 +130,18 @@
 				8BE99F511F69E79700E8C4F2 /* CoreMedia.framework */,
 				8BE99F521F69E79700E8C4F2 /* CoreTelephony.framework */,
 				8BE99F531F69E79700E8C4F2 /* CoreText.framework */,
+				DDA43D641263DD7F1FA7F382 /* Pods_QuickApp.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC52A9F14D27587B28F27CA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				246C09B7BEE6E19926CD97FF /* Pods-QuickApp.debug.xcconfig */,
+				AB96219C557BD178413CA6B3 /* Pods-QuickApp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B07A07A1F588B0F00B3EA19 /* Build configuration list for PBXNativeTarget "QuickApp" */;
 			buildPhases = (
+				0630DA63CD0B3ACDEF097989 /* [CP] Check Pods Manifest.lock */,
 				8B07A05F1F588B0F00B3EA19 /* Sources */,
 				8B07A0601F588B0F00B3EA19 /* Frameworks */,
 				8B07A0611F588B0F00B3EA19 /* Resources */,
+				B6F8EBDDA33D5701C94A1E14 /* [CP] Embed Pods Frameworks */,
+				5D2C5DE21558B88A88AE5C7B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,6 +179,7 @@
 					8B07A0621F588B0F00B3EA19 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = L4FET847JL;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -190,6 +215,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0630DA63CD0B3ACDEF097989 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuickApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D2C5DE21558B88A88AE5C7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickApp/Pods-QuickApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6F8EBDDA33D5701C94A1E14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QuickApp/Pods-QuickApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickApp/Pods-QuickApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8B07A05F1F588B0F00B3EA19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -197,6 +276,7 @@
 			files = (
 				8B07A06E1F588B0F00B3EA19 /* ViewController.m in Sources */,
 				8B07A06B1F588B0F00B3EA19 /* AppDelegate.m in Sources */,
+				8B30EC581F6C9E37001E6746 /* SwiftyViewController.swift in Sources */,
 				8B07A0681F588B0F00B3EA19 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,8 +397,10 @@
 		};
 		8B07A07B1F588B0F00B3EA19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 246C09B7BEE6E19926CD97FF /* Pods-QuickApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = L4FET847JL;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -328,13 +410,18 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.QuickApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QuickApp/QuickApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		8B07A07C1F588B0F00B3EA19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB96219C557BD178413CA6B3 /* Pods-QuickApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = L4FET847JL;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -344,6 +431,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.QuickApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QuickApp/QuickApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
