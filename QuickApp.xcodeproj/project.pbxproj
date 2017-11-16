@@ -13,7 +13,18 @@
 		8B07A0711F588B0F00B3EA19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B07A06F1F588B0F00B3EA19 /* Main.storyboard */; };
 		8B07A0731F588B0F00B3EA19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B07A0721F588B0F00B3EA19 /* Assets.xcassets */; };
 		8B07A0761F588B0F00B3EA19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B07A0741F588B0F00B3EA19 /* LaunchScreen.storyboard */; };
+		8BFC850F1FBE01B40010D5A5 /* QuickAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC850E1FBE01B40010D5A5 /* QuickAppTests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BFC85111FBE01B40010D5A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B07A05B1F588B0F00B3EA19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B07A0621F588B0F00B3EA19;
+			remoteInfo = QuickApp;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8B07A0631F588B0F00B3EA19 /* QuickApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +37,20 @@
 		8B07A0721F588B0F00B3EA19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B07A0751F588B0F00B3EA19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B07A0771F588B0F00B3EA19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BFC850C1FBE01B40010D5A5 /* QuickAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFC850E1FBE01B40010D5A5 /* QuickAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickAppTests.m; sourceTree = "<group>"; };
+		8BFC85101FBE01B40010D5A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8B07A0601F588B0F00B3EA19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFC85091FBE01B40010D5A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				8B07A0651F588B0F00B3EA19 /* QuickApp */,
+				8BFC850D1FBE01B40010D5A5 /* QuickAppTests */,
 				8B07A0641F588B0F00B3EA19 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				8B07A0631F588B0F00B3EA19 /* QuickApp.app */,
+				8BFC850C1FBE01B40010D5A5 /* QuickAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +102,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8BFC850D1FBE01B40010D5A5 /* QuickAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BFC850E1FBE01B40010D5A5 /* QuickAppTests.m */,
+				8BFC85101FBE01B40010D5A5 /* Info.plist */,
+			);
+			path = QuickAppTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,6 +131,24 @@
 			productReference = 8B07A0631F588B0F00B3EA19 /* QuickApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8BFC850B1FBE01B40010D5A5 /* QuickAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BFC85151FBE01B40010D5A5 /* Build configuration list for PBXNativeTarget "QuickAppTests" */;
+			buildPhases = (
+				8BFC85081FBE01B40010D5A5 /* Sources */,
+				8BFC85091FBE01B40010D5A5 /* Frameworks */,
+				8BFC850A1FBE01B40010D5A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BFC85121FBE01B40010D5A5 /* PBXTargetDependency */,
+			);
+			name = QuickAppTests;
+			productName = QuickAppTests;
+			productReference = 8BFC850C1FBE01B40010D5A5 /* QuickAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -112,6 +162,12 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = L4FET847JL;
 						ProvisioningStyle = Automatic;
+					};
+					8BFC850B1FBE01B40010D5A5 = {
+						CreatedOnToolsVersion = 9.1;
+						DevelopmentTeam = L4FET847JL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B07A0621F588B0F00B3EA19;
 					};
 				};
 			};
@@ -129,6 +185,7 @@
 			projectRoot = "";
 			targets = (
 				8B07A0621F588B0F00B3EA19 /* QuickApp */,
+				8BFC850B1FBE01B40010D5A5 /* QuickAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -141,6 +198,13 @@
 				8B07A0761F588B0F00B3EA19 /* LaunchScreen.storyboard in Resources */,
 				8B07A0731F588B0F00B3EA19 /* Assets.xcassets in Resources */,
 				8B07A0711F588B0F00B3EA19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFC850A1FBE01B40010D5A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +221,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8BFC85081FBE01B40010D5A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFC850F1FBE01B40010D5A5 /* QuickAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BFC85121FBE01B40010D5A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B07A0621F588B0F00B3EA19 /* QuickApp */;
+			targetProxy = 8BFC85111FBE01B40010D5A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8B07A06F1F588B0F00B3EA19 /* Main.storyboard */ = {
@@ -295,6 +375,58 @@
 			};
 			name = Release;
 		};
+		8BFC85131FBE01B40010D5A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4FET847JL;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = QuickAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.QuickAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickApp.app/QuickApp";
+			};
+			name = Debug;
+		};
+		8BFC85141FBE01B40010D5A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4FET847JL;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = QuickAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.QuickAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickApp.app/QuickApp";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -314,6 +446,16 @@
 				8B07A07C1F588B0F00B3EA19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BFC85151FBE01B40010D5A5 /* Build configuration list for PBXNativeTarget "QuickAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFC85131FBE01B40010D5A5 /* Debug */,
+				8BFC85141FBE01B40010D5A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
