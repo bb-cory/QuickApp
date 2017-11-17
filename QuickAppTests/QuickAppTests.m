@@ -26,6 +26,7 @@
 
 - (void)testExample {
     XCTAssertTrue(true);
+    NSLog(@"home dir is %@",NSHomeDirectory());
 }
 
 @end
